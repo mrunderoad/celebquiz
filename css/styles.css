@@ -1,0 +1,23 @@
+h1 {
+  text-align: center;
+  font-size: 60px;
+  color: darkgoldenrod;
+  padding-top: 50px;
+}
+
+
+#youngfemale {
+  display: none;
+}
+
+#oldfemale {
+  display: none;
+}
+
+#youngmale {
+  display: none;
+}
+
+#oldmale {
+  display: none;
+}

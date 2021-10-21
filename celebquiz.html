@@ -12,7 +12,7 @@
 <body>
   <div class="container">
   <h1>Who's your celebrity <em>soulmate?</em></h1>
-    <form class="needs-validation" novalidate>
+    <form id="celebform" novalidate>
       <div class="form-row">
         <div class="col-md-6 mb-3">
           <label for="name">Name</label>
@@ -34,21 +34,15 @@
           <label for="gender">Gender</label>
           <select class="custom-select" id="gender" required>
             <option selected disabled value="">Choose...</option>
-            <option>Male</option>
-            <option>Female</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
           </select>
           <div class="invalid-feedback">
-            Please select a valid state.
+            Please select a valid option.
           </div>
         </div>
-        <!-- <div class="col-md-3 mb-3">
-          <label for="validationCustom05">FEMALECELEB1 & FEMALECELEB2</label>
-          <input type="text" class="form-control" id="validationCustom05" required>
-          <div class="invalid-feedback">
-            #####
-          </div>
-        </div> -->
       </div>
+
       <div class="form-group">
         <div class="form-check">
           <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
@@ -62,6 +56,20 @@
       </div>
       <button class="btn btn-primary" type="submit">What celebrity is your soulmate?</button>
     </form>
+
+    <div id="youngfemale">
+      <p>image of YOUNG female celebrity name etc</p>
+    </div>
+    <div id="oldfemale">
+      <p>image of OLD female celebrity name etc</p>
+    </div>
+
+    <div id="youngmale">
+      <p>image of YOUNG male celebrity name etc</p>
+    </div>
+    <div id="oldmale">
+      <p>image of OLD male celebrity name etc</p>
+    </div>
   </div>
 </body>
 
